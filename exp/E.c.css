@@ -1,0 +1,77 @@
+.retangulo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    background-color: rgb(84, 161, 192);
+    padding: 90px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.opcoes{
+padding: 10px;
+}
+
+.opcoes a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+
+}
+
+.opcoes a:hover{
+    color: aliceblue;
+    transition: 0.5s all; 
+}
+
+.objetivos {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+.objetivos img {
+    width: 500px; 
+    margin-top: 30%;
+    margin-bottom: 0%;
+    
+}
+.racio img{
+    margin-bottom: 0%;
+    margin-top: 10px;
+    width: 205px;
+    height: 205px;
+    object-fit: cover; 
+    padding-left: 30px;
+    padding-right: 5px;}
+    
+
+
+.racio{ 
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.racio p{
+    margin-left: 50px;
+    height: 2px;
+}
+
+.objetivos  h2{
+    margin-top: auto;
+    text-align: center;
+    background-color:  rgb(84, 161, 192);
+}
+footer {
+    text-align: center;
+    color: black;
+    border-top: 2px solid black;
+}
+
+footer p {
+    text-align: center;
+}
